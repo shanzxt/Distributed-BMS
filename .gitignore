@@ -1,0 +1,30 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Firmware build output
+build/
+*.elf
+*.hex
+*.bin
+*.o
+
+# Large datasets: keep out of git, document the source in dataset-assessment.md
+data/
+*.mat
+*.h5
+*.zip
+
+# Hardware tool backups
+*.bak
+*-backups/
+*.kicad_prl
